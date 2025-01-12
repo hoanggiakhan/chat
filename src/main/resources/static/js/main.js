@@ -23,7 +23,7 @@ function connect(event) {
         usernamePage.classList.add('hidden');
         chatPage.classList.remove('hidden');
 
-        var socket = new SockJS('/https://chat-ku62.onrender.com');
+        var socket = new SockJS('https://chat-ku62.onrender.com/javatechie');
         stompClient = Stomp.over(socket);
 
         stompClient.connect({}, onConnected, onError);
