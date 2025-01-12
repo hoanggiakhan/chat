@@ -27,7 +27,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 body:before {
     height: 50%;
     width: 100%;
